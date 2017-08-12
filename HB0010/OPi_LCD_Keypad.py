@@ -57,15 +57,15 @@
 # 16 (LED-) -> 37 (GND)
 
 # The wiring for the Matrix Keypad is as follows:
-# Keypad Pin -> T-Cobbler Pin
-#          1 -> 2 (PA12)
-#          2 -> 3 (PA11)
-#          3 -> 4 (PA6)
-#          4 -> 6 (PA1)
-#          5 -> 7 (PA0)
-#          6 -> 8 (PA3)
-#          7 -> 9 (PC0)
-#          8 -> 10 (PC1)
+# Keypad Pin -> T-Cobbler Pin (With pins going 1-20 on left side, 21-40 on right side)
+#          1 -> 6 (PA1)
+#          2 -> 4 (PA6)
+#          3 -> 3 (PA11)
+#          4 -> 2 (PA12)
+#          5 -> 8 (PA3)
+#          6 -> 7 (PA0)
+#          7 -> 25 (PC13)
+#          8 -> 24 (PC14)
 
 #import
 from pyA20.gpio import gpio
