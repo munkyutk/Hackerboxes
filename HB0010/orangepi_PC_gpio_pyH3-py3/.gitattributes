@@ -1,0 +1,9 @@
+# Ensure Unix line endings (LF) for Python files
+*.py text eol=lf
+
+# Ensure Unix line endings for all files in examples directory
+examples/* text eol=lf
+README.md text eol=lf
+
+# Ensure Unix line endings for shell scripts
+*.sh text eol=lf
